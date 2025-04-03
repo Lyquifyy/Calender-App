@@ -23,7 +23,7 @@ namespace MyCalenderApp;
         public MainWindow()
         {
             InitializeComponent();
-            PopulateCalendar(2025, 4);
+            PopulateCalendar(currentYear, currentMonth);
         }
 
         private void PopulateCalendar(int year, int month)
@@ -53,13 +53,14 @@ namespace MyCalenderApp;
                     Width = 40,
                     Height = 40,
                     Margin = new Thickness(5),
-                    Background = System.Windows.Media.Brushes.LightBlue
+                    Background = System.Windows.Media.Brushes.DarkGray
                 };
 
                 // Add the button to the grid
                 Grid.SetRow(dayButton, currentRow);
                 Grid.SetColumn(dayButton, column);
                 CalendarGrid.Children.Add(dayButton);
+                UpdateMonthYearDisplay();
             }
         }
         private void UpdateMonthYearDisplay()

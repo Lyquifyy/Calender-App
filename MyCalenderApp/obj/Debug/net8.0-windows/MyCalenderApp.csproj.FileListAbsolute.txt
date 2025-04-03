@@ -20,3 +20,4 @@ C:\Documents\Calender App\MyCalenderApp\obj\Debug\net8.0-windows\MyCalenderApp.g
 C:\Documents\Calender App\MyCalenderApp\obj\Debug\net8.0-windows\ref\MyCalenderApp.dll
 C:\Documents\Calender App\MyCalenderApp\obj\Debug\net8.0-windows\Themes\Theme.baml
 C:\Documents\Calender App\MyCalenderApp\obj\Debug\net8.0-windows\App.baml
+C:\Documents\Calender App\MyCalenderApp\obj\Debug\net8.0-windows\MyCalenderApp.sourcelink.json
